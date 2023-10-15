@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    color: goldenrod;
+    padding: 1rem 5rem;
+    transition: all 2s;
+}
+
+.header:hover {
+    background-color: black;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+
+    text-decoration: none;
+    
+}
+
+nav * {
+    text-decoration: none;
+    color: cadetblue;
+}
