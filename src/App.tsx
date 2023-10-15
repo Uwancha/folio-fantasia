@@ -1,13 +1,32 @@
-import React from 'react'
-import './App.scss'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.scss';
 
-function App() {
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import NotFound from './components/NotFound';
+import Nav from './components/Nav';
 
+const App: React.FC = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <Router>
+      <div className="app">
+        <Nav />
+        <main className="app-main">
+          <Routes>
+            <Route path="/" Component={Home} />
+            <Route path="/about" Component={About} />
+            <Route path="/projects" Component={Projects} />
+            <Route Component={NotFound} />
+          </Routes>
+        </main>
+        <footer className="app-footer">
+          <p>&copy; 2023 My Portfolio</p>
+        </footer>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;
