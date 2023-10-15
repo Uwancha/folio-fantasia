@@ -7,6 +7,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import NotFound from './components/NotFound';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -21,9 +22,7 @@ const App: React.FC = () => {
             <Route Component={NotFound} />
           </Routes>
         </main>
-        <footer className="app-footer">
-          <p>&copy; 2023 My Portfolio</p>
-        </footer>
+        <Footer />
       </div>
     </Router>
   );
