@@ -20,7 +20,7 @@ const Home: React.FC = () => {
                 </h3>
                
                 <Link to="/about" className="link">
-                        More About ME
+                    More About ME
                 </Link>
             </div>
         </div>
