@@ -1,25 +1,38 @@
 .header {
     display: flex;
     align-items: center;
-    color: goldenrod;
-    padding: 1rem 5rem;
-    transition: all 2s;
+    color: gold;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 20rem;
+    animation: borderBottom infinite linear 10s;
 }
 
-.header:hover {
-    background-color: black;
+@keyframes borderBottom {
+    0% {
+        border-bottom: solid black 1px;
+    }
+
+    50% {
+        border-bottom: solid gold 1px;
+    }
+
+    100% {
+        border-bottom: solid black 1px;
+    }
 }
 
 nav {
-    margin: 0 auto;
+    margin-left: auto;
     display: flex;
     gap: 2rem;
 
     text-decoration: none;
-    
+    font-size: 20px;
+    font-weight: 600;
 }
 
 nav * {
     text-decoration: none;
-    color: cadetblue;
+    color: #fff;
 }
