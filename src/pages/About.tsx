@@ -1,5 +1,10 @@
 import React from "react";
-import "../styles/about.scss"
+import "../styles/about.scss";
+
+import reactLogo from "../assets/react.svg"
+import jsIcon from "../assets/javascript-2189147_640.png";
+import htmlIcon from "../assets/html5-3384014_640.png";
+import cssIcon from "../assets/logo-2582747_640.png";
 
 const About: React.FC = () => {
 
@@ -32,7 +37,16 @@ const About: React.FC = () => {
                 UX/UI to solve real problems and make a positive impact. The adventure continues!
             </p> 
 
-            <h2>Skills and Tools</h2>
+            <div>
+                <h2>Skills and Tools</h2>
+                <div className="skills-icons">
+                    <img src={htmlIcon} alt="html icon" />
+                    <img src={cssIcon} alt="css icon" />
+                    <img src={jsIcon} alt="javascript icon" />
+                    <img src={reactLogo} alt="react logo" />
+                </div>
+            </div>
+
 
         
             
