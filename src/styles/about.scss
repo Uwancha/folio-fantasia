@@ -20,3 +20,25 @@ section {
     }
 }
 
+.skills-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: rgb(95, 158, 160, .4);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skills-icons {
+    img {
+        width: 250px;
+        height: 250px;
+
+        border-radius: 50%;
+    }
+}
+
