@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../styles/home.scss"
-import image from "../assets/1666710204004.jpeg"
+import image from "../assets/developer-3461405_640.png"
 
 const Home: React.FC = () => {
 
     return (
         <div className="home">
-            <img src={image} alt="sitota alemu" />
+            <img src={image} alt="programmer icon" />
             <div className="texts">
                 <h4>Hi there!</h4>
                 <h3>I'm Sitota Alemu</h3>
