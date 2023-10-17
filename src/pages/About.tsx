@@ -58,7 +58,7 @@ const About: React.FC = () => {
             </div>
 
             <p>I am currently looking for new frontend development opportunities and collaborations. If you have a project that could use my skills, or just want to say hello, feel free to contact me.</p> 
-            <p>You can find me on <a href="https://github.com/Uwancha">GitHub</a> or send me an email at uwancha@email.com.</p>
+            <p>You can find me on <a href="https://github.com/Uwancha">GitHub</a> or send me an email at <span>uwancha@email.com</span>.</p>
         </section>
     )
 }

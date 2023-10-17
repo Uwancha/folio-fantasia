@@ -25,6 +25,8 @@ section {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex: 1;
+    gap: 2rem;
 
     background-color: rgb(95, 158, 160, .4);
     border-radius: 8px;
@@ -37,8 +39,16 @@ section {
     img {
         width: 100px;
         height: 100px;
-
-        border-radius: 50%;
     }
 }
 
+p {
+    a {
+        text-decoration: none;
+        color: gold;
+    }
+
+    span {
+        color: gold;
+    }
+}
