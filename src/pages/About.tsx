@@ -1,11 +1,6 @@
 import React from "react";
 import "../styles/about.scss";
 
-import reactLogo from "../assets/react.svg"
-import jsIcon from "../assets/javascript-2189147_640.png";
-import htmlIcon from "../assets/html5-3384014_640.png";
-import cssIcon from "../assets/logo-2582747_640.png";
-
 const About: React.FC = () => {
 
     return (
@@ -40,16 +35,28 @@ const About: React.FC = () => {
             <div>
                 <h2>Skills and Tools</h2>
                 <div className="skills-icons">
-                    <img src={htmlIcon} alt="html icon" />
-                    <img src={cssIcon} alt="css icon" />
-                    <img src={jsIcon} alt="javascript icon" />
-                    <img src={reactLogo} alt="react logo" />
+                   
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" />
                 </div>
             </div>
 
-
-        
-            
             <p>I am currently looking for new frontend development opportunities and collaborations. If you have a project that could use my skills, or just want to say hello, feel free to contact me.</p> 
             <p>You can find me on <a href="https://github.com/Uwancha">GitHub</a> or send me an email at uwancha@email.com.</p>
         </section>
