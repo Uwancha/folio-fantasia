@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import "../styles/projects.scss"
 
@@ -7,6 +7,7 @@ import memoryCardImage from "../assets/cardgame.png"
 import weatherAppImage from "../assets/weather-app.png"
 import cvMakerSiteImage from "../assets/cv-maker.png"
 import fentaleRestaurantImage from "../assets/fentale-restaurant.png"
+import { ThemeContext } from "../App";
 
 
 interface  Project {
@@ -62,13 +63,14 @@ const projects: Project[] = [
 ];
 
 const Projects: React.FC = () => {
+  const { theme } = useContext(ThemeContext)
 
     return (
         
-            <article>
+            <article className={`article${theme}`}>
                 <h3>Some of my works</h3>
                 {projects.map((project) => (
-                    <section key={project.id}>
+                    <section key={project.id} className={`section${theme}`}>
                             <img src={project.image} alt={project.title} />
                             <div className="div">
                                 <p>{project.summary}</p>

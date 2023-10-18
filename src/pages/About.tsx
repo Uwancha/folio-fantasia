@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/about.scss";
+import { ThemeContext } from "../App";
 
 const About: React.FC = () => {
+    const { theme } = useContext(ThemeContext)
 
     return (
-        <section>
+        <section className={`about${theme}`}>
             <h1>A Little Story of Mine</h1>
 
             <p>

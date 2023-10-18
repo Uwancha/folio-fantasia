@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../App";
 
 import "../styles/home.scss"
 import image from "../assets/developer-3461405_640.png"
 
 const Home: React.FC = () => {
-
+    const { theme } = useContext(ThemeContext)
+    console.log(theme)
     return (
-        <div className="home">
+        <div className={`home${theme}`}>
             <img src={image} alt="programmer icon" />
             <div className="texts">
                 <h4>Hi there!</h4>
@@ -19,7 +21,7 @@ const Home: React.FC = () => {
                     I build interactive and responsive user interfaces.
                 </h3>
                
-                <Link to="/about" className="link">
+                <Link to="/about" className={`link${theme}`}>
                     More About ME
                 </Link>
             </div>
