@@ -1,11 +1,24 @@
-.header {
+.headerdark {
     display: flex;
     align-items: center;
     color: gold;
     padding-top: 1rem;
     padding-left: 5rem;
     padding-right: 20rem;
-    animation: borderBottom infinite linear 10s;
+    
+}
+
+.headerlight {
+    display: flex;
+    align-items: center;
+    color: chartreuse;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 20rem;
+
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
+    
 }
 
 @keyframes borderBottom {
@@ -22,7 +35,7 @@
     }
 }
 
-nav {
+.navdark {
     margin-left: auto;
     display: flex;
     gap: 2rem;
@@ -30,9 +43,22 @@ nav {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+    color: #fff;
 }
+
+.navlight {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: olive;
+}
+
 
 nav * {
     text-decoration: none;
-    color: #fff;
+    color: inherit;
 }

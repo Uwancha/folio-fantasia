@@ -1,20 +1,30 @@
-article {
+.articledark {
     margin-top: 2rem;
     color: #fff;
-
-
 }
 
-article {
-
-    section {
-        display: flex;
-        gap: 2rem;
-
-        border: solid rgba(95, 158, 160, 0.579) 2px;
-        border-radius: 8px;
-    }
+.articlelight {
+    margin-top: 2rem;
+    color: olive;
 }
+
+
+.sectiondark {
+    display: flex;
+    gap: 2rem;
+
+    border: solid rgba(95, 158, 160, 0.579) 2px;
+    border-radius: 8px;
+}
+
+.sectionlight {
+    display: flex;
+    gap: 2rem;
+
+    border: solid rgba(128, 255, 0, 0.136) 2px;
+    border-radius: 8px;
+}
+
 
 .div {
     display: flex;

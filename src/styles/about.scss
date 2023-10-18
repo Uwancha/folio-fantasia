@@ -1,5 +1,12 @@
-section {
+.aboutdark {
     color: #fff;
+    width: 70vw;
+
+    margin: 3rem auto;
+}
+
+.aboutlight {
+    color: olive;
     width: 70vw;
 
     margin: 3rem auto;
@@ -20,7 +27,7 @@ section {
     }
 }
 
-.skills-icons {
+.skills-iconsdark {
     display: flex;
     align-items: center;
     justify-content: center;

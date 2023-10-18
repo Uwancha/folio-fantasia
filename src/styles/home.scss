@@ -1,4 +1,4 @@
-.home {
+.homedark {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -6,6 +6,18 @@
     padding: 0 5rem;
 
     color: #fff;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.homelight {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10rem;
+    padding: 0 5rem;
+
+    color: chartreuse;
     margin-top: 7rem;
     margin-bottom: 10rem;
 }
@@ -43,7 +55,7 @@ h3 {
 
 
 
-.link {
+.linkdark {
     text-decoration: none;
     color: inherit;
     border-radius: 8px;
@@ -58,7 +70,28 @@ h3 {
     transition: all 1s;
 }
 
-.link:hover {
+.linkdark:hover {
     background-color: gold;
+}
+
+.linklight {
+    text-decoration: none;
+    color: inherit;
+    border-radius: 8px;
+    color: olive;
+    border: solid 2px chartreuse;
+    
+
+    margin-top: 3rem;
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    padding-top: .5rem;
+    transition: all 1s;
+}
+
+.linklight:hover {
+    background-color: chartreuse;
+    color: rgba(0, 0, 0, 0.476);
 }
 

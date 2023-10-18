@@ -5,5 +5,17 @@
   background-color: black;
 
   overflow-y: scroll;
+  transition: all 1s;
 }
 
+.applight {
+  background-color: #fff;
+
+  transition: all 1s;
+}
+
+.appdark {
+  background-color: black;
+
+  transition: all 1s;
+}
