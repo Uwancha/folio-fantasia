@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         <div className={`home${theme}`}>
             <img src={image} alt="programmer icon" />
             <div className="texts">
-                <h4>Hi there!</h4>
+                <h4 className={`h4${theme}`}>Hi there!</h4>
                 <h3>I'm Sitota Alemu</h3>
                 <h3>
                     A frontend developer based in Addis Ababa, Ethiopia. 

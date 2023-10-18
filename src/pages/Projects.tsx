@@ -72,9 +72,9 @@ const Projects: React.FC = () => {
                 {projects.map((project) => (
                     <section key={project.id} className={`section${theme}`}>
                             <img src={project.image} alt={project.title} />
-                            <div className="div">
+                            <div className={`div${theme}`}>
                                 <p>{project.summary}</p>
-                                <div className="links">
+                                <div className={`links${theme}`}>
                                     <a href={project.liveLink}>Live preview</a>
                                     <a href={project.githubLink}>Source code</a>
                                 </div>
