@@ -1,37 +1,58 @@
 .articledark {
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 4rem;
     color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .articlelight {
-    margin-top: 2rem;
-    color: olive;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0 4rem;
+    color: rgb(7, 7, 55);
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 
 .sectiondark {
     display: flex;
     gap: 2rem;
-
-    border: solid rgba(95, 158, 160, 0.579) 2px;
-    border-radius: 8px;
 }
 
 .sectionlight {
     display: flex;
     gap: 2rem;
-
-    border: solid rgba(128, 255, 0, 0.136) 2px;
-    border-radius: 8px;
 }
 
 
-.div {
+.divdark {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     padding: 2rem 1rem;
+
+    border: solid rgba(95, 158, 160, 0.579) 2px;
+    border-radius: 8px;
+}
+
+.divlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 2rem 1rem;
+
+
+    border: solid rgba(95, 158, 160, 0.579) 2px;
+    border-radius: 8px;
 }
     
 
@@ -48,25 +69,49 @@ article {
 
 }
 
-.links {
+.linksdark, .linkslight {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
+
+    gap: 2rem;
 }
 
-.links {
+.linksdark {
     a {
         text-decoration: none;
         color: gold;
-        padding: 0 .5rem;
+        font-size: 18px;
+        border-radius: 6px;
+        border: solid #fff 2px;
+        padding: .5rem 1rem;
 
         transition: all 1s;
     }
 }
 
-.links {
+.linksdark {
     a:hover {
-        border: solid #fff 2px;
-        border-radius: 4px;
+        background-color: #fff;
+    }
+}
+
+.linkslight {
+    a {
+        text-decoration: none;
+        color: olive;
+        font-size: 18px;
+        border: solid 2px chartreuse;
+        border-radius: 6px;
+        padding: .5rem 1rem;
+
+        transition: all 1s;
+    }
+}
+
+.linkslight {
+    a:hover {
+        background-color: chartreuse;
     }
 }
