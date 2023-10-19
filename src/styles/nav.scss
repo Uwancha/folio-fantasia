@@ -5,7 +5,13 @@
     padding-top: 1rem;
     padding-left: 5rem;
     padding-right: 20rem;
-    
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+
+    animation: borderBottom infinite linear 10s;
 }
 
 .headerlight {
@@ -19,19 +25,36 @@
     box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
     
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
 @keyframes borderBottom {
     0% {
-        border-bottom: solid black 1px;
+        border-bottom: solid cadetblue 1px;
+    }
+
+    10% {
+        border-bottom: solid green 1px;
+    }
+
+    25% {
+        border-bottom: solid tomato 1px;
     }
 
     50% {
         border-bottom: solid gold 1px;
     }
 
+    75% {
+        border-bottom: solid white 1px;
+    }
+
     100% {
-        border-bottom: solid black 1px;
+        border-bottom: solid cadetblue 1px;
     }
 }
 
@@ -56,7 +79,7 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    color: olive;
+    color: rgba(7, 7, 55, 0.59);
 }
 
 
@@ -74,11 +97,19 @@ nav * {
     background-color: #fff;
 }
 
+.themeIconDark:hover {
+    border: solid 2px gold;
+}
+
 .themeIconLight {
     width: 30px;
     height: 30px;
 
     border-radius: 50%;
     padding: 4px;
-    background-color: rgb(7, 7, 55);
+    background-color: rgba(7, 7, 55, 0.065);
+}
+
+.themeIconLight:hover {
+    border: solid 1px chartreuse;
 }
