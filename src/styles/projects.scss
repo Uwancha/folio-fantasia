@@ -1,7 +1,6 @@
 .articledark {
-    margin-top: 5rem;
     margin-bottom: 5rem;
-    padding: 0 4rem;
+    padding: 10rem 4rem;
     color: #fff;
 
     display: flex;
@@ -10,7 +9,7 @@
 }
 
 .articlelight {
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-bottom: 5rem;
     padding: 0 4rem;
     color: rgb(7, 7, 55);
@@ -20,6 +19,13 @@
     gap: 4rem;
 }
 
+.spandark {
+    color: gold;
+}
+
+.spanlight {
+    color: chartreuse;
+}
 
 .sectiondark {
     display: flex;
@@ -35,24 +41,17 @@
 .divdark {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
 
-    padding: 2rem 1rem;
-
-    border: solid rgba(95, 158, 160, 0.579) 2px;
-    border-radius: 8px;
+    padding: 0 1rem;
 }
 
 .divlight {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
 
-    padding: 2rem 1rem;
-
-
-    border: solid rgba(95, 158, 160, 0.579) 2px;
-    border-radius: 8px;
+    padding: 0 1rem;
 }
     
 
