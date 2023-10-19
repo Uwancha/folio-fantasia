@@ -35,10 +35,10 @@ const About: React.FC = () => {
             </p> 
 
             <div>
-                <h2>Skills and Tools</h2>
+                <h2>Skills and <span className={`span${theme}`}>Tools</span></h2>
                 <div className="skills-icons">
                    
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
@@ -60,7 +60,7 @@ const About: React.FC = () => {
             </div>
 
             <p>I am currently looking for new frontend development opportunities and collaborations. If you have a project that could use my skills, or just want to say hello, feel free to contact me.</p> 
-            <p>You can find me on <a href="https://github.com/Uwancha">GitHub</a> or send me an email at <span>uwancha@email.com</span>.</p>
+            <p>You can find me on <a href="https://github.com/Uwancha"><span className={`span${theme}`}>GitHub</span></a> or send me an email at <span className={`span${theme}`} >uwancha@email.com</span>.</p>
         </section>
     )
 }

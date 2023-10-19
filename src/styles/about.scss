@@ -2,14 +2,19 @@
     color: #fff;
     width: 70vw;
 
-    margin: 3rem auto;
+    margin: 0 auto;
+    padding-top: 10rem;
 }
 
 .aboutlight {
     color: rgb(7, 7, 55);
     width: 70vw;
 
-    margin: 3rem auto;
+    margin: 10rem auto;
+}
+
+.aboutlight p {
+    color: rgba(7, 7, 55, 0.59);
 }
 
 section {
@@ -27,7 +32,7 @@ section {
     }
 }
 
-.skills-iconsdark {
+.skills-icons {
     display: flex;
     align-items: center;
     justify-content: center;
