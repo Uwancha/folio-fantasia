@@ -82,6 +82,9 @@ const Projects: React.FC = () => {
                             </div>
                     </section>
                 ))}
+                <div className={`seeAll${theme}`}>
+                  <a href="https://github.com/Uwancha">See all</a>
+                </div>
             </article>
         
     )
