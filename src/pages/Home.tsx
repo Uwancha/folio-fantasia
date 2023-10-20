@@ -15,7 +15,7 @@ const Home: React.FC = () => {
                 <h4 className={`h4${theme}`}>Hi there!</h4>
                 <h3>I'm Sitota Alemu</h3>
                 <h3>
-                    A frontend developer based in Addis Ababa, Ethiopia. 
+                    I'm a frontend developer. 
                 </h3>
                 <h3>
                     I build interactive and responsive user interfaces.
