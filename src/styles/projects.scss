@@ -24,7 +24,7 @@
 }
 
 .spanlight {
-    color: chartreuse;
+    color: green;
 }
 
 .sectiondark {
@@ -103,9 +103,9 @@ article {
 .linkslight {
     a {
         text-decoration: none;
-        color: olive;
+        color: gold;
         font-size: 18px;
-        border: solid 2px chartreuse;
+        border: solid 2px green;
         border-radius: 6px;
         padding: .5rem 1rem;
 
@@ -115,6 +115,48 @@ article {
 
 .linkslight {
     a:hover {
-        background-color: chartreuse;
+        background-color: green;
     }
+}
+
+.seeAlldark {
+    border: solid #fff; 
+    border-radius: 8px;
+    padding: .5rem 2rem;
+    align-self: center;
+    
+ 
+    transition: all 1s;
+ }
+ 
+ .seeAlldark a {
+     text-decoration: none;
+     color: gold;
+     font-size: 24px;
+     font-weight: 600;
+ }
+ 
+ .seeAlldark:hover {
+     background-color: #fff;
+ }
+
+.seeAlllight {
+   border: solid green; 
+   border-radius: 8px;
+   padding: .5rem 2rem;
+   align-self: center;
+   
+
+   transition: all 1s;
+}
+
+.seeAlllight a {
+    text-decoration: none;
+    color: gold;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.seeAlllight:hover {
+    background-color: green;
 }
