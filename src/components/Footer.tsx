@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import "../styles/footer.scss";
+import "../styles/footer.css";
 
 import linkedIcon from "../assets/linkedin_145807.png";
 import githubIcon from "../assets/github_733609.png";

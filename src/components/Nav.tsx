@@ -1,7 +1,7 @@
 import React, { useContext, } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../App";
-import "../styles/nav.scss"
+import "../styles/nav.css"
 
 import darkMode from "../assets/206.jpg";
 import lightMode from "../assets/26915.jpg"
