@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ThemeContext } from "../App";
 
-import "../styles/home.scss"
+import "../styles/home.css"
 import image from "../assets/developer-3461405_640.png"
 
 const Home: React.FC = () => {

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "../styles/about.scss";
+import "../styles/about.css";
 import { ThemeContext } from "../App";
 
 const About: React.FC = () => {

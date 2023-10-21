@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-import "../styles/projects.scss"
+import "../styles/projects.css"
 
 import shoppingSiteImage from "../assets/shoppingCart.png"
 import memoryCardImage from "../assets/cardgame.png"
