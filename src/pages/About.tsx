@@ -43,7 +43,6 @@ const About: React.FC = () => {
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
@@ -54,13 +53,12 @@ const About: React.FC = () => {
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" />
                 </div>
             </div>
 
             <p>I am currently looking for new frontend development opportunities and collaborations. If you have a project that could use my skills, or just want to say hello, feel free to contact me.</p> 
-            <p>You can find me on <a href="https://github.com/Uwancha"><span className={`span${theme}`}>GitHub</span></a> or send me an email at <span className={`span${theme}`} >uwancha@email.com</span>.</p>
+            <p>You can find me on <a href="https://github.com/Uwancha"><span className={`span${theme}`}>GitHub</span></a> or send me an email at <span className={`span${theme}`} >uwanchaani@gmail.com</span>.</p>
         </section>
     )
 }
