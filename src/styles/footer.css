@@ -33,30 +33,27 @@
     gap: 2rem;
 }
 
-footer {
+footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 
-    img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
+    align-self: center;
+}
 
-        align-self: center;
-    }
+footer  a {
+    text-decoration: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
 
-    a {
-        text-decoration: none;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        border-radius: 50%;
+    width: 40px;
+    height: 40px;
 
-        width: 40px;
-        height: 40px;
+    transition: all 1s;
+}
 
-        transition: all 1s;
-    }
-
-    a:hover {
-        background-color: transparent;
-    }
+footer   a:hover {
+    background-color: transparent;
 }
