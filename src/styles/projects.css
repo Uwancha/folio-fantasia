@@ -24,7 +24,7 @@
 }
 
 .spanlight {
-    color: green;
+    color: #088F8F;
 }
 
 .sectiondark {
@@ -81,42 +81,35 @@ article {
     gap: 2rem;
 }
 
-.linksdark {
-    a {
-        text-decoration: none;
-        color: gold;
-        font-size: 18px;
-        border-radius: 6px;
-        border: solid #fff 2px;
-        padding: .5rem 1rem;
+.linksdark a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    border-radius: 6px;
+    border: solid #fff 2px;
+    padding: .5rem 1rem;
 
-        transition: all 1s;
-    }
+    transition: all 1s;
 }
 
-.linksdark {
-    a:hover {
-        background-color: #fff;
-    }
+.linksdark a:hover {
+    background-color: #fff;
 }
 
-.linkslight {
-    a {
-        text-decoration: none;
-        color: gold;
-        font-size: 18px;
-        border: solid 2px green;
-        border-radius: 6px;
-        padding: .5rem 1rem;
 
-        transition: all 1s;
-    }
+.linkslight a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    border: solid 2px #088F8F;
+    border-radius: 6px;
+    padding: .5rem 1rem;
+
+    transition: all 1s;
 }
 
-.linkslight {
-    a:hover {
-        background-color: green;
-    }
+.linkslight a:hover {
+    background-color: #088F8F;
 }
 
 .seeAlldark {
@@ -130,18 +123,18 @@ article {
  }
  
  .seeAlldark a {
-     text-decoration: none;
-     color: gold;
-     font-size: 24px;
-     font-weight: 600;
+    text-decoration: none;
+    color: gold;
+    font-size: 24px;
+    font-weight: 600;
  }
  
  .seeAlldark:hover {
-     background-color: #fff;
+    background-color: #fff;
  }
 
 .seeAlllight {
-   border: solid green; 
+   border: solid #088F8F; 
    border-radius: 8px;
    padding: .5rem 2rem;
    align-self: center;
@@ -158,5 +151,5 @@ article {
 }
 
 .seeAlllight:hover {
-    background-color: green;
+    background-color: #088F8F;
 }

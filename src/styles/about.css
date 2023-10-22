@@ -17,20 +17,20 @@
     color: rgba(7, 7, 55, 0.59);
 }
 
-section {
-    p {
+section p {
+     
         text-align: left;
         font-family: 36px;
         font-weight: 500;
 
         margin-bottom: 2rem;
         line-height: 1.5;
-    }
-
-    h2 {
-        margin-top: 5rem;
-    }
+    
 }
+section  h2 {
+    margin-top: 5rem;
+}
+
 
 .skills-icons {
     display: flex;
@@ -47,20 +47,17 @@ section {
     margin-bottom: 5rem;
 }
 
-.skills-icons {
-    img {
-        width: 100px;
-        height: 100px;
-    }
+.skills-icons img {
+    width: 100px;
+    height: 100px;
 }
 
-p {
-    a {
-        text-decoration: none;
-        color: gold;
-    }
 
-    span {
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+span {
         color: gold;
-    }
 }
