@@ -59,18 +59,17 @@
 }
     
 
-article {
-    img  {
-        width: 350px;
-        height: 300px;
-    }
-
-    p{
-        font-size: 20px;
-        font-weight: 500;
-    }
-
+article img  {
+    width: 350px;
+    height: 300px;
 }
+
+article   p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
 
 .linksdark, .linkslight {
     display: flex;
