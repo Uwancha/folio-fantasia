@@ -152,3 +152,34 @@ article   p{
 .seeAlllight:hover {
     background-color: #088F8F;
 }
+
+@media (max-width: 768px) {
+    .articlelight, .articledark {
+        padding-left: 1rem;
+    }
+
+    .articlelight > h3, .articledark h3 {
+        text-align: center;
+    }
+
+    .sectionlight {
+        flex-direction: column;
+    }
+
+    .sectiondark {
+        flex-direction: column;
+    }
+
+    .linksdark, .linkslight {
+        gap: 1rem;
+    }
+
+    .linksdark a, .linkslight a {
+        padding: .5rem .5rem;
+    }
+
+    .seeAlldark, .seeAlllight {
+        width: 100%;
+    }
+}
+
