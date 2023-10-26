@@ -24,7 +24,6 @@
 
     box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
-    
 
     position: fixed;
     top: 0;
@@ -112,4 +111,53 @@ nav * {
 
 .themeIconLight:hover {
     border: solid 1px chartreuse;
+}
+
+@media (max-width: 768px) {
+    .headerlight {
+        display: flex;
+        align-items: center;
+        
+        padding: .5rem 1rem;
+    }
+
+    .headerlight h2 {
+        font-size: 16px;
+    }
+
+    .navlight {
+        gap: .5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .themeIconLight {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+    }
+
+
+    .headerdark {
+        display: flex;
+        align-items: center;
+
+        padding: .5rem 1rem;
+    }
+
+    .headerdark h2 {
+        font-size: 16px;
+    }
+
+    .navdark {
+        gap: .5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .themeIconDark {
+        width: 25px;
+        height: 25px;
+        align-self: center;
+    }
 }
