@@ -5,7 +5,6 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import NotFound from './components/NotFound';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
