@@ -16,7 +16,7 @@ interface ThemeContextProps {
 export const ThemeContext = createContext<ThemeContextProps>({} as ThemeContextProps);
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme(prevTheme => prevTheme === 'dark' ? 'light' : 'dark');
