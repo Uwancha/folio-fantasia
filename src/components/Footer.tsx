@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
 
         <footer className={`footer${theme}`}>
             <div className="links">
-                <a href="" className="github"><img src={githubIcon} alt="link to github" /></a>
-                <a href=""><img src={linkedIcon} alt="link to linkedin" /></a>
+                <a href="https://github.com/Uwancha" className="github"><img src={githubIcon} alt="link to github" /></a>
+                <a href="https://www.linkedin.com/in/sitota"><img src={linkedIcon} alt="link to linkedin" /></a>
                 <a href=""><img src={twitterIcon} alt="link to twitter" /></a>
             </div>
             <p>&copy; 2023 designed and coded by Sitota Alemu</p>
