@@ -83,7 +83,7 @@ h3 {
     color: inherit;
     border-radius: 8px;
     color: rgb(7, 7, 55);
-    border: solid 2px green;
+    border: solid 2px #088f8f;
     
 
     margin-top: 3rem;
@@ -95,7 +95,7 @@ h3 {
 }
 
 .linklight:hover {
-    background-color: green;
+    background-color: #088F8F;
 }
 
 
