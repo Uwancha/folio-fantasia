@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { ThemeContext } from "../App";
 import "../styles/nav.css"
 
-import darkMode from "../assets/206.jpg";
-import lightMode from "../assets/26915.jpg"
+import lightMode from "../assets/mode.png";
+import darkMode from "../assets/night-mode.png"
 
 const Nav: React.FC = () => {
     const {theme, toggleTheme} = useContext(ThemeContext)
@@ -17,7 +17,7 @@ const Nav: React.FC = () => {
                 <Link to="/projects">Projects</Link>
                 <Link to="/about">About</Link>
                 <div onClick={toggleTheme} className="theme">
-                    {theme === "dark" ? (<img src={darkMode} alt="dark mode icon" className="themeIconDark" />) :  (<img src={lightMode} alt="light mode icon" className="themeIconLight"/>) }
+                    {theme === "dark" ? (<img src={lightMode} alt="light mode icon" className="themeIconDark" />) :  (<img src={darkMode} alt="dark mode icon" className="themeIconLight"/>) }
                 </div>
             </nav>
         </div>
